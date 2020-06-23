@@ -63,13 +63,13 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <div className="container">
-            <Alert alert={alert} />
             <Switch>
               <Route
                 exact
-                path="/"
+                path="/github-finder/"
                 render={props => (
                   <Fragment>
+                    <Alert alert={alert} />
                     <Search
                       searchUsers={this.searchUsers}
                       clearUsers={this.clearUsers}
@@ -80,7 +80,7 @@ class App extends Component {
                   </Fragment>
                 )}
               />
-              <Route exact path="/about" component={About} />
+              <Route exact path="/github-finder/about" component={About} />
             </Switch>
           </div>
         </div>
