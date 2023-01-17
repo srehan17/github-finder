@@ -1,3 +1,3 @@
-This Github Finder project has been built using React. Reference: Brad Travesy Tutorial at Udemy.
+Github Finder project has been built using React.
 
-Demo application is deployed on https://srehan17.github.io/github-finder
+Demo app: https://srehan17.github.io/github-finder
